@@ -36,7 +36,7 @@ const LoginPage = () => {
                 hp: response?.data?.data?.user?.phone_number ?? '',
                 email: response?.data?.data?.user?.email ?? '',
             }))
-            navigate('/dashboard');
+            navigate('/profile');
 		},
 		onError: (error) => {
 			setAlert({status:true, message:`${error}`, type:'failure'})

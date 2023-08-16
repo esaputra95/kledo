@@ -28,7 +28,7 @@ const SidebarLayout = ({handleLogOut}) => {
                     className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
                 >
                     <BsArrowRightCircle className='text-gray-600 w-8 h-8' />
-                    <span className="flex-1 ml-3 whitespace-nowrap">Shipping Comps</span>
+                    <span className="flex-1 ml-3 whitespace-nowrap">Sign Out</span>
                 </span>
             </div>
             <div className="px-3 py-4 overflow-y-auto flex flex-col justify-between h-full bg-gray-50 dark:bg-gray-800">

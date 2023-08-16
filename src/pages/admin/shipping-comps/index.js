@@ -22,7 +22,7 @@ const ShippingCompsPage = () => {
             refetch()
             setOpenModal(false)
             setIsLoading(false)
-            setAlert({message:'Successfully saved data', status:true, type:'success'})
+            setAlert({message:'Successfully delete data', status:true, type:'success'})
         },
         onError: (message)=> {
             setAlert({message:`${message}`, status:true, type:'failure'})
