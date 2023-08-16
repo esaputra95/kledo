@@ -8,7 +8,6 @@ const PublicLayout = () => {
     const dispatch = useDispatch();
     useEffect(()=>{
         const user = JSON.parse(localStorage.getItem("user")??'')
-        console.log({user});
         dispatch(setUser(user))
     }, [])
     return (
